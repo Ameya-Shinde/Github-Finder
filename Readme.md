@@ -22,6 +22,23 @@ To use this application, follow these steps:
 ## Hosted Link
 https://ameya-shinde.github.io/Github-Finder/
 
+## CSS Media Queries
+
+The application includes CSS media queries to ensure a responsive design for various screen sizes. Below are the specific breakpoints and corresponding style adjustments:
+
+- **Up to 1023px**:
+    - `.user-card`: Changes `flex-direction` to column layout.
+    - `.head`: Adjusts layout to flexbox with space between and center alignment. Removes border and padding.
+    - `.container`: Adjusts `top` property to 0%.
+
+- **From 425px to 320px**:
+    - `.head img`: Sets the image width to 50%.
+
+- **Up to 320px**:
+    - `.head`: Allows flex items to wrap.
+
+These media queries ensure that the application's layout and elements are appropriately adjusted for different screen sizes, providing a seamless user experience on various devices.
+
 ## JavaScript Functionality Used
 
 - **Fetching Data**: Utilizes the `fetch` API to retrieve user information from the GitHub API. The `await` keyword is used to ensure that the data is fetched before proceeding with the next steps.
