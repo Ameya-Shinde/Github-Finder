@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    width: 100vw;
+    height: 90vh;
+    transition: 0.8s all ease;
+}
+
+#bgCol {
+    margin: 1rem !important;
+}
+
+#bgCol button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#light {
+    background-color: grey;
+    color: white
+}
+
+.container {
+    position: relative;
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto auto;
+}
+
+.logo {
+    font-size: 2.5rem;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 12px 14px;
+    border-radius: 10px;
+    background-color: #ededed;
+    margin: 20px 0;
+}
+
+.search-form .keyword {
+    width: 100%;
+    padding: 8px;
+    background-color: transparent;
+}
+
+.search-form .btn {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: .4s all ease;
+}
+
+.user-card {
+    background-color: #ededed;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    gap: 1rem;
+}
+
+.head {
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid grey;
+}
+
+.userPhoto {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.boldInfo {
+    font-weight: bold;
+}
+
+.details {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.infoCard {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

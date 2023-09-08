@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="bgCol">
+        <button id="light">Light</button>
+        <button id="dark">Dark</button>
+    </div>
+    <div class="container">
+        <header class="header">
+            <h2 class="logo">Github</h2>
+        </header>
+        <form class="search-form">
+            <i class="fa fa-search fa-beat"></i>
+            <input type="text" placeholder="Search Github username" class="keyword">
+            <button class="btn" type="submit">Search</button>
+        </form>
+
+        <div class="user-card">
+            <div class="loader">
+                <h3>Enter the github username you wish to search</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
