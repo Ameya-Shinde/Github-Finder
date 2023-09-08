@@ -106,3 +106,33 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1023px) {
+    .user-card{
+        flex-direction: column;
+    }
+    .head{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        padding: 0px;
+    }
+
+    .container{
+        top: 0%;
+    }
+}
+
+@media (max-width: 425px) and (min-width:321px){
+    .head img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .head{
+        flex-wrap: wrap;
+    }
+}
